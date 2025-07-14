@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Blog F1 Mania - Posts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="top-header">
+        <nav class="main-nav">
+            <ul>
+               <li><a href="pagina1.html">Início</a></li>
+                <li><a href="pagina2.html">Blog</a></li>
+                <li><a href="pagina3.html">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Todos os Posts de F1</h1>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Categorias</h2>
+            <ul>
+                <li><a href="#pilotos">Pilotos</a></li>
+                <li><a href="#carros">Carros</a></li>
+                <li><a href="#circuitos">Circuitos</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#analises">Análises</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <div class="filtros">
+                <input type="text" id="filtro-blog" placeholder="Buscar posts..." />
+                <label>
+                    <input type="checkbox" id="filtrarPorTituloBlog" />
+                    Buscar apenas por título
+                </label>
+            </div>
+            <div id="container-blog-posts" class="cards">
+                </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>Desenvolvido por Evellyn Alem </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
